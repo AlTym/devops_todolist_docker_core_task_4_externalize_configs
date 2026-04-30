@@ -28,7 +28,7 @@ services:
     volumes:
       - todoapp-db-data:/var/lib/mysql
     environment:
-      - ENGINE=django.db.backends.postgresql
+      - ENGINE=django.db.backends.mysql
       - NAME=app_db
       - USER=app_user
       - PASSWORD=1234
